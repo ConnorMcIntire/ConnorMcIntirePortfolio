@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 export default function Home() {
   const [currentBadge, setCurrentBadge] = useState(0);
@@ -16,7 +17,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-yellow-200 flex flex-col items-center justify-center p-4">
+    <div className="min-h-screen bg-red-600 flex flex-col items-center justify-center p-4">
       <div className="max-w-4xl w-full bg-white rounded-2xl shadow-2xl border-4 border-blue-500 p-6">
         <h1 className="text-4xl font-bold text-red-500 mb-4" style={{ fontFamily: 'Pokemon, sans-serif' }}>
           Welcome to My Projectdex!
@@ -45,9 +46,11 @@ export default function Home() {
           </div>
         </div>
         <div className="flex space-x-4 mt-6">
+        <Link href="/projectdex">
           <button className="px-4 py-2 bg-red-500 text-white rounded-lg shadow hover:bg-red-600">
             View Projectdex
           </button>
+        </Link>
           <button className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600">
             Contact Me
           </button>
