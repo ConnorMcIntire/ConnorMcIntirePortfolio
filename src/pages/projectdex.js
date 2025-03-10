@@ -1,24 +1,33 @@
 import { useState } from 'react';
 
 const projects = [
-  {
-    id: 1,
-    name: 'Rock Paper Scissors ',
-    image: '/rock_paper_scissors.png',
-    description: 'A python app that allows user to play rock, paper, scissors.',
-    techStack: ['Python'],
-    github: 'https://github.com/ConnorMcIntire/rock-paper-scissors',
-    demo: '#'
-  },
-  {
-    id: 2,
-    name: 'Butcher Shop Order Form',
-    image: '/projects/butcher-shop.png',
-    description: 'A digitized order form for a butcher shop with Google Sheets integration.',
-    techStack: ['JavaScript', 'Google Sheets API'],
-    github: 'https://github.com/yourusername/butcher-shop-form',
-    demo: '#'
-  }
+    {
+        id: 1,
+        name: 'Alarm Clock',
+        image: '/alarm_clock.png',
+        description: 'This Python-based timer application allows users to set a countdown in minutes and seconds. The timer displays the remaining time in mm:ss format and plays an alarm sound when the time is up.',
+        techStack: ['Python'],
+        github: 'https://github.com/ConnorMcIntire/alarm_clock',
+        demo: '#'
+    },
+    {
+        id: 2,
+        name: 'Course Organizer',
+        image: 'course_organizer.png',
+        description: 'Course Organizer is a Java-based application built with Maven and JavaFX that helps users manage their college courses. It allows users to add, update, and view courses by semester, department, and course details.',
+        techStack: ['Java', 'Maven', 'JavaFX', 'FXML', 'JUnit', 'Checkstyle'],
+        github: 'https://github.com/ConnorMcIntire/Course-Organizer',
+        demo: 'https://youtu.be/iluSanup8aE'   
+    },
+    {
+        id: 3,
+        name: 'Rock Paper Scissors ',
+        image: '/rock_paper_scissors.png',
+        description: 'A simple Python-based Rock, Paper, Scissors game where you compete against the computer. The game tracks your wins and losses, and you can keep playing until you choose to quit.',
+        techStack: ['Python'],
+        github: 'https://github.com/ConnorMcIntire/rock-paper-scissors',
+        demo: '#'
+    },
 ];
 
 export default function Projectdex() {
@@ -26,7 +35,7 @@ export default function Projectdex() {
 
   return (
     <div className="min-h-screen bg-red-500 p-6">
-      <h1 className="text-4xl font-bold text-yellow-300 mb-6" style={{ fontFamily: 'Pokemon, sans-serif' }}>
+      <h1 className="text-4xl font-bold text-black mb-6" style={{ fontFamily: 'Pokemon, sans-serif' }}>
         Projectdex
       </h1>
       
