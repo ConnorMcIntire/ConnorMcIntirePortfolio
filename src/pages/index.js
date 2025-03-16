@@ -51,9 +51,11 @@ export default function Home() {
             View Projectdex
           </button>
         </Link>
+        <Link href="/contactme">
           <button className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600">
             Contact Me
           </button>
+        </Link>
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Link from 'next/link';
 
 const projects = [
     {
@@ -35,10 +36,17 @@ export default function Projectdex() {
 
   return (
     <div className="min-h-screen bg-red-500 p-6">
-      <h1 className="text-4xl font-bold text-black mb-6" style={{ fontFamily: 'Pokemon, sans-serif' }}>
-        Projectdex
-      </h1>
-      
+      <div className="flex justify-between items-center mb-6">
+        <h1 className="text-4xl font-bold text-black" style={{ fontFamily: 'Pokemon, sans-serif' }}>
+          Projectdex
+        </h1>
+        <Link href="/">
+          <button className="px-6 py-2 bg-yellow-500 text-black font-bold rounded-lg border-4 border-blue-500 hover:bg-yellow-400 hover:scale-105 transition-transform">
+            ⬅ Return to Home
+          </button>
+        </Link>
+      </div>
+
       {selectedProject ? (
         <div className="bg-white p-6 rounded-2xl shadow-2xl border-4 border-blue-500">
           <button
