@@ -17,7 +17,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-red-600 flex flex-col items-center justify-center p-4">
+    <div className="min-h-screen bg-red-500 flex flex-col items-center justify-center p-4">
       <div className="max-w-4xl w-full bg-white rounded-2xl shadow-2xl border-4 border-blue-500 p-6">
         <h1 className="text-4xl font-bold text-red-500 mb-4" style={{ fontFamily: 'Pokemon, sans-serif' }}>
           Welcome to My Projectdex!
@@ -35,7 +35,7 @@ export default function Home() {
             <p className="text-lg text-gray-700 mb-4">Passionate about creating engaging digital experiences, actively seeking opportunities to grow and contribute as a developer.</p>
           </div>
           <div className="flex flex-col items-center min-w-[150px]">
-            <h3 className="text-xl text-red-500 mb-2">My Badges(Click to Visit)</h3>
+            <h3 className="text-xl text-red-500 mb-2">My Links(Click to Visit)</h3>
             <a href={badges[currentBadge].url} target="_blank" rel="noopener noreferrer">
               <img
                 src={badges[currentBadge].image}
@@ -51,8 +51,13 @@ export default function Home() {
             View Projectdex
           </button>
         </Link>
-        <Link href="/contactme">
+        <Link href="/aboutme">
           <button className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600">
+            About Me
+          </button>
+        </Link>
+        <Link href="/contactme">
+          <button className="px-4 py-2 bg-red-500 text-white rounded-lg shadow hover:bg-blue-600">
             Contact Me
           </button>
         </Link>

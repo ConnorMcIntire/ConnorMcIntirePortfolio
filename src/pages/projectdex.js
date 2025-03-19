@@ -21,7 +21,16 @@ const projects = [
         demo: 'https://youtu.be/iluSanup8aE'   
     },
     {
-        id: 3,
+      id: 3,
+      name: 'Movie Searcher ',
+      image: '/movie_searcher.png',
+      description: 'A simple React-based Movie Search app that allows you to browse and search for movies using an external API. You can search for movies by title, explore popular movies, and save your favorite movies for easy access later. The app provides an interactive and user-friendly interface, making movie discovery enjoyable and efficient.',
+      techStack: ['React.js', 'JavaScript', 'HTML', 'CSS', 'TMDB API'],
+      github: 'https://github.com/ConnorMcIntire/movie_searcher',
+      demo: 'https://youtu.be/G423syR0COA'
+    },
+    {
+        id: 4,
         name: 'Rock Paper Scissors ',
         image: '/rock_paper_scissors.png',
         description: 'A simple Python-based Rock, Paper, Scissors game where you compete against the computer. The game tracks your wins and losses, and you can keep playing until you choose to quit.',
@@ -29,6 +38,9 @@ const projects = [
         github: 'https://github.com/ConnorMcIntire/rock-paper-scissors',
         demo: '#'
     },
+    
+
+    
 ];
 
 export default function Projectdex() {
