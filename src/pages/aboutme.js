@@ -9,7 +9,7 @@ export default function AboutMe() {
     { id: 5, name: 'C#', image: '/badges/csharp_badge.png' },
     { id: 6, name: 'Flask', image: '/badges/flask_badge.png' },
     { id: 7, name: 'Pandas', image: '/badges/pandas_badge.png' },
-    { id: 8, name: 'Badge 8', image: '/badge8.png' },
+    { id: 8, name: 'Next.js', image: '/badges/nextjs_badge.png' },
   ];
 
   return (
