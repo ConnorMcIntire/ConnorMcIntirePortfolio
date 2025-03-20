@@ -20,11 +20,11 @@ export default function AboutMe() {
           <div className="md:w-1/2 p-6 bg-gray-100">
             <h2 className="text-3xl font-bold mb-4">About Me</h2>
             <p className="text-gray-700 mb-4">
-              Hi, I'm Connor McIntire! I have a passion for web development, gaming, and creative projects.
+              Hi, I am Connor McIntire! I have a passion for web development, gaming, and creative projects.
               I love exploring new technologies and combining my interests with a bit of nostalgia.
             </p>
             <p className="text-gray-700">
-              Just like a Pokémon trainer, I've collected skills along my journey.
+              Just like a Pokémon trainer, I have collected skills along my journey.
               Each badge represents a milestone in my learning and achievements.
             </p>
           </div>
