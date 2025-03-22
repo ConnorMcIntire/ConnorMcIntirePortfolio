@@ -9,7 +9,7 @@ const projects = [
         description: 'This Python-based timer application allows users to set a countdown in minutes and seconds. The timer displays the remaining time in mm:ss format and plays an alarm sound when the time is up.',
         techStack: ['Python'],
         github: 'https://github.com/ConnorMcIntire/alarm_clock',
-        demo: '#'
+        demo: 'https://youtu.be/MJlAaEi_qTI'
     },
     {
         id: 2,
@@ -36,7 +36,7 @@ const projects = [
         description: 'A simple Python-based Rock, Paper, Scissors game where you compete against the computer. The game tracks your wins and losses, and you can keep playing until you choose to quit.',
         techStack: ['Python'],
         github: 'https://github.com/ConnorMcIntire/rock-paper-scissors',
-        demo: '#'
+        demo: 'https://youtu.be/nJW72A0WFHo'
     },
     
 
