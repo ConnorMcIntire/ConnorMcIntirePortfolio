@@ -38,6 +38,15 @@ const projects = [
         github: 'https://github.com/ConnorMcIntire/rock-paper-scissors',
         demo: 'https://youtu.be/nJW72A0WFHo'
     },
+    {
+        id: 5,
+        name: 'Weather App',
+        image: '/weather.png',  
+        description: 'A weather app that provides current weather data and a 5-day forecast based on a city name. The app fetches data from the OpenWeatherMap API and displays temperature in Fahrenheit with a simple, clean interface.',
+        techStack: ['HTML', 'Tailwind CSS', 'JavaScript'],
+        github: 'https://github.com/ConnorMcIntire/weather-app',  
+        demo: 'https://youtu.be/i2Y-pUZLvbw',  
+    },
     
 
     
