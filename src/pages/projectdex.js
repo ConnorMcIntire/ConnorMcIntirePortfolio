@@ -35,6 +35,7 @@ const projects = [
   image: '/music_reviews.png',
   description: 'A personal music review site with real-time data filtering, Spotify links, and a sleek Tailwind UI. Allows users to explore songs, artists, and ratings with dynamic views.',
   techStack: ['HTML', 'Tailwind CSS', 'JavaScript', 'Google Sheets API'],
+  github: 'https://github.com/ConnorMcIntire/Music_Review_Site',
   demo: 'https://music-review-site.vercel.app/'
 },
     {
