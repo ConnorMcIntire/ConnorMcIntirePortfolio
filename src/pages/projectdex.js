@@ -30,7 +30,15 @@ const projects = [
       demo: 'https://youtu.be/G423syR0COA'
     },
     {
-        id: 4,
+  id: 4,
+  name: 'Music Review Website',
+  image: '/music_reviews.png',
+  description: 'A personal music review site with real-time data filtering, Spotify links, and a sleek Tailwind UI. Allows users to explore songs, artists, and ratings with dynamic views.',
+  techStack: ['HTML', 'Tailwind CSS', 'JavaScript', 'Google Sheets API'],
+  demo: 'https://music-review-site.vercel.app/'
+},
+    {
+        id: 5,
         name: 'Rock Paper Scissors ',
         image: '/rock_paper_scissors.png',
         description: 'A simple Python-based Rock, Paper, Scissors game where you compete against the computer. The game tracks your wins and losses, and you can keep playing until you choose to quit.',
@@ -39,7 +47,7 @@ const projects = [
         demo: 'https://youtu.be/nJW72A0WFHo'
     },
     {
-        id: 5,
+        id: 6,
         name: 'Weather App',
         image: '/weather.png',  
         description: 'A weather app that provides current weather data and a 5-day forecast based on a city name. The app fetches data from the OpenWeatherMap API and displays temperature in Fahrenheit with a simple, clean interface.',
